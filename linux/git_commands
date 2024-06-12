@@ -1,0 +1,48 @@
+git init: Initialize a new Git repository in the current directory.
+
+Example: git init.
+git clone: Clone a repository into a new directory.
+
+Example: git clone <repository_URL>.
+git add: Add file contents to the index (staging area) for committing.
+
+Example: git add file.txt.
+git commit: Record changes to the repository.
+
+Example: git commit -m "Commit message".
+git status: Show the status of changes (untracked, modified, staged) in the working directory.
+
+Example: git status.
+git push: Push local changes to a remote repository.
+
+Example: git push origin master (push to the master branch).
+git pull: Fetch from and merge with another repository or a local branch.
+
+Example: git pull origin master (pull changes from the master branch of the remote repository).
+git branch: List, create, or delete branches.
+
+Example: git branch, git branch new_branch, git branch -d branch_to_delete.
+git checkout: Switch branches or restore working tree files.
+
+Example: git checkout branch_name, git checkout -b new_branch (create and switch to a new branch).
+git merge: Join two or more development histories together.
+
+Example: git merge branch_to_merge.
+git log: Show commit logs.
+
+Example: git log.
+git remote: Manage remote repositories.
+
+Example: git remote add origin <repository_URL>, git remote -v (list remotes).
+git reset: Reset current HEAD to the specified state.
+
+Example: git reset --hard HEAD (discard all changes since the last commit).
+git fetch: Download objects and refs from another repository.
+
+Example: git fetch origin (fetch changes from the remote repository).
+git config: Set or get configuration options.
+
+Example: git config --global user.name "Your Name", git config --global user.email "youremail@example.com".
+git stash: Stash changes in a dirty working directory away.
+
+Example: git stash, git stash pop (apply stashed changes and remove them from the stash).
