@@ -1,0 +1,7 @@
+ mkdir linux
+ cd linux/
+ pwd
+ touch file1 file2 file2
+ ls
+ rm -rf file2
+ history
