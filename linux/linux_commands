@@ -57,4 +57,11 @@ du: Display disk usage of files and directories.
 Example: du -sh directory_name (summarized and human-readable).
 wget: Download files from the internet.
 
-Example: wget URL.
+clear :to clear the screen
+grep :filter to search given pattern in the file content
+diff :compare the content of two different files
+ping :check the conectivity status of server
+history :review all the commands which you entered
+hostname :display the host name
+hostname -i :display the host id
+
