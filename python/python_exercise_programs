@@ -1,0 +1,82 @@
+"""print("hello")
+print("i am learning python")
+print("hello world",end="\t")
+print("i am learning python")
+print("balaji","dileep","raja","bhanu",sep=":")
+
+x=10
+print("x value is",x)
+y=5.6
+print("y value is",y)
+z=2+3j
+print("z value is",z)
+
+name="balaji"
+print("my name is",name)
+x=10
+y=30
+print("is x>y",x>y)
+
+l=[5,12,23,43,33]
+print("list elements",l)
+student=[1,"dileep",[56,67,87,78,66.78]]
+print(student[0])
+print(student[1])
+print(student[2])
+print(student[2][2])
+
+s={1,2,3,4,5,6}
+print("set elements are ",s)
+
+d={"rno":1,"sname":"dileep","marks":[66,77,67,67,65,65]}
+print("student details",d)
+print(d.keys())
+print(d.values())
+
+
+x=int(input("enyer the number"))
+y=int(input("enter the number"))
+z=x+y
+print("sum of",x, "and",y,"is",z)     
+
+x=10
+y=23
+print("sum of",{},"and",{},"is{}".format(x,y,x+y))
+
+
+x=int(input("enter the number :"))
+y=int(input("enter the number :"))
+z=x*y
+print(x,"*",y,"=",z)
+   (or)
+print(f" {x}*{y}={x*y}")
+print("{}*{}={}".format(x,y,x*y))
+
+x=input("enter the number")
+print(type(x))
+x=int(x)
+print(type(x))
+
+x=int(input("enter the number :"))
+print(x)
+
+x=eval(input("enter the number :"))
+print(x)
+
+
+l=int(input("enter the length :"))
+b=int(input("enter the breadth :"))
+area=l*b
+print("area is",area)
+p=2*(l+b)
+print("perimeter is",p)
+
+
+print("simple intrest")
+p=int(input("enter principle ammount: "))
+t=int(input("enter time period: "))
+r=int(input("enter rate of intrest: "))
+si=(p*t*r)/100
+print("simple intrest",si)
+"""
+
