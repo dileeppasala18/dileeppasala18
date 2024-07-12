@@ -1,0 +1,10 @@
+ pwd
+ touch file1 file2 file2
+ ls
+ rm -rf file2
+ ls
+ ls -l
+ ls
+ hository
+ history
+  
