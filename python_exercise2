@@ -1,0 +1,124 @@
+
+# to print the +ve or -ve numbers
+"""
+x=int(input("enter the number : "))
+if x>0:
+    print(x,"is possitive")
+else:
+    print(x,"is negitive")
+    
+#to print the given number is even or odd
+n=int(input("enter the number"))
+if n%2==0:
+    print(n,"is even")
+else:
+    print(n,"is odd")
+    
+#to print the leap year or non_leap year
+n=int(input("enter the year"))
+if n%4==0:
+    print(n,"is leap")
+else:
+    print(n,"is non_leap_year")
+    
+
+#to print of maximum and minimum of two numbers
+a=int(input("enter the number"))
+b=int(input("enter the number"))
+if a>b :
+    print(a,"is maximum")
+else:
+    print(b,"is miximum")
+    
+
+a=int(input("enter the a value"))
+b=int(input("enter the b value"))
+c=int(input("enter the c value"))
+if a>b and a>c:
+    max=a
+else:
+    if b>c:
+        max=b
+    else:
+        max=c
+print("max of {} and {} and {} is {} ".format(a,b,c,max))
+
+#pass or fail
+
+m=int(input("enter mathes result"))
+p=int(input("enter physcis result"))
+c=int(input("enter chemistry result"))
+if m>=35 and p>=35 and c>=35:
+      print("result is pass")
+else:
+      print("result is false")
+
+#while loop
+i=1
+while i<=100:
+    print("hello")
+    i+=1
+
+# multipli cation of 2
+x=2
+i=1
+while i<=10:
+    print(f"{x}*{i}={x*i}")
+    i+=1
+print("end")    
+
+#factores count
+count=0
+x=8
+f=1
+while f<=x:
+    r=x%f
+    if r==0:
+        count+=1
+    f+=1
+print("count=",count)
+
+#prime or not prime
+count=0
+x=8
+f=1
+while f<=x:
+    r=x%f
+    if r==0:
+        count+=1
+    f+=1
+print("count=",count)
+if(count==2):
+    print(x,"is prime")
+else:    
+    print(x,"is non prime")
+
+#factorial 
+x=5
+i=1
+f=1
+while i<=x:
+    f=f*i
+    i+=1
+print(f"factorial of {x} is {f}")    
+
+#reverse of thr number
+x=567
+s=0
+while x>0:
+    r=x%10
+    s=s*10+r
+    x=x//10
+print(s)    
+# n multiplications
+n=int(input("enter the number")
+i=1
+while i<=n:
+    j=1
+    while j<=10:
+        print(i,"*",j,"=",i*j)
+        j+=1
+    i+=1
+print("end")
+"""
+
