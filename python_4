@@ -1,0 +1,104 @@
+[200~"""
+# sum of 1 to n numbers
+i=1
+s-0
+while i<=5:
+    s=s+i
+    i+=1
+print("sum is",s)
+#sum of the given digits
+n=123
+s=0
+while n>0:
+    r=n%10
+    s=s+r
+    n=n//10
+print("sum is",s)
+
+#arm strong number
+i=1
+while(i<=1000):
+    n=i
+    s=0
+    while(n>0):
+        r=n%10
+        s=s+(r*r*r)
+        n=n//10
+    if(i==s):
+        print(i,"is arm strong number")
+    i+=1
+print("close")
+
+     (or)
+     
+i=153
+n=i
+s=0
+while(n>0):
+    r=n%10
+    s=s+(r*r*r)
+    n=n//10
+if(i==s):
+  print(i,"is arm strong number")
+else:
+  print(i,"is not a arm strong number")
+
+#print numbers
+
+i=1
+while i<=4:
+    j=1
+    while j<=i:
+        print(j,end="\t")
+        j+=1
+    print("\n")
+    i+=1
+print("end")
+
+#polindrum or not polindrum
+
+n=int(input("enter the number"))
+t=n
+r=0
+while(n>0):
+    r=r*10+(n%10)
+    n=n//10
+if(t==r):
+    print(t,"is a polindrum")
+else:
+    print(t,"is not a polindrum")
+    
+
+i=1
+while i<=4:
+    j=1
+    while j<=i:
+        print(i,end="\t")
+        j+=1
+    print("\n")
+    i+=1
+print("end")
+
+k=1
+i=1
+while i<=4:
+    j=1
+    while j<=i:
+        print(k,end="\t")
+        j+=1
+        k+=1
+    print("\n")
+    i+=1
+print("end")
+
+n=int(input("enter the number"))
+i=1
+while(i<=n):
+    j=1
+    while(j<=10):
+        print(i,"*",j,"=",i*j) 
+        j+=1
+    i+=1
+print("bye")
+"""
+
