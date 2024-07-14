@@ -1,0 +1,184 @@
+"""
+d={"r.no":12,"name":"raja","contact":7780666266}
+d['marks']=[72,74,76,97,77,88]
+for i in d.keys():
+    if i=='marks':
+        print("marks in telugu",d[i][0])
+        print("marks in english",d[i][1])
+        print("marks in maths",d[i][2])
+        print("marks in physics",d[i][3])
+        print("marks in chemistry",d[i][4])
+        print("marks in sanscrit",d[i][5])
+        print("MArks in all subjects:")
+        for j in d[i]:
+            print(j)
+    else:
+        print(i,d[i])
+print("Details are")
+for i in d.values():
+        print(i)
+
+for k,v in d.items():
+    print(k,"  :  ",v)
+
+#student of details
+ 
+student={}
+rno=int(input("enter the rno"))
+name=input("enter name")
+contact=input("enter the contact number")
+print("enter the 6 subjects marks")
+marks=[]
+for i in range(6):
+    
+     marks.append(int(input("enter the marks")))
+student['r.no']=rno
+student['name']=name
+student['contact']=contact
+student['marks']=marks         
+student['result']= 'pass'
+for i in student['marks']:
+     if i<35:
+       student['result']='fail'
+       student['grade']='nill'
+       
+if student['result']!='fail':
+    student['total']=sum(student['marks'])
+    student['avg']=student['total']/6
+    if student['avg']>=60:
+        student['grade']='first'
+    elif student['avg']>=50:
+        student['grade']='second'
+    else:
+        student['grade']='third'
+print("student details")
+print(student)
+        
+
+#functions for simle examples
+
+#with arguments and return type
+def sum(x,y):
+    z=x+y
+    return(z)
+k=sum(10,20)
+print(k)
+
+#with arguments and no return type
+def sum(x,y):
+    z=x+y
+    print(z)    
+sum(10,20)
+
+#with no arguments and return type
+def sum():
+    x=int(input("enter the number"))
+    y=int(input("enter the number"))
+    z=x+y
+    return(z)
+k=sum()
+print(k)
+
+#with no arguments and no return type
+def sum():
+    x=int(input("enter the number"))
+    y=int(input("enter the number"))
+    z=x+y
+    print(z)
+sum()
+
+#area of rectangle in 4 types
+#with arguments and return type
+def area(l,b):
+    a=l*b
+    return(a)
+k=area(10,20)
+print(k)
+
+#with arguments and no return type
+def area(l,b):
+    a=l*b
+    print(a)    
+area(10,20)
+
+#with no arguments and return type
+def area():
+    l=int(input("enter the number"))
+    b=int(input("enter the number"))
+    a=l*b
+    return(a)
+k=area()
+print(k)
+
+#with no arguments and no return type
+def area():
+    l=int(input("enter the number"))
+    b=int(input("enter the number"))
+    a=l*b
+    print(a)
+area()
+
+
+# simple calculater
+
+def add(x,y):
+    z=x+y
+    return(z)
+def sub(x,y):
+    z=x-y
+    return(z)
+def mul(x,y):
+    z=x*y
+    retutn(z)
+def div(x,y):
+    z=x%y
+    return(z)
+x=int(input("enter the x value"))    
+y=int(input("enter the y value"))
+print("1-add \n,2-sub \n,3-mul \n,4-div \n")
+opt=int(input("enter your option"))
+if opt==1:
+    result=add(x,y)
+elif opt==2:
+    result=sub(x,y)
+elif opt==3:
+    result=mul(x,y)
+else:
+    result=div(x,y)
+print("result=",result)
+print(result)
+
+
+#variable length for arguments
+
+def add(*arg):
+    s=0
+    for i in arg:
+        s=s+i
+    return s
+a=add(10,20)
+print(a)
+
+# key word arguments in functions
+
+def greeting(name,msg):
+    print(f"hi {name}{msg}")
+greeting("balaji"," good morning")
+greeting(" good morning"," sunny") 
+greeting(msg=" good morning",name="dileep")
+
+#variable length key word arguments
+
+def fun(**arg):
+    for i in arg.keys():
+        print(i,arg[i])
+fun(msg=" good morning",name="dileep",contact="12345678")
+
+#default arguments
+
+def greet(name,msg=" good morning"):
+    print(f"hi{name}{msg}")
+greet("dileep")    
+greet(" raja"," good evening")
+"""
+
