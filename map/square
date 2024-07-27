@@ -1,0 +1,20 @@
+#even test
+l=[11,23,445,55,6,7,78,69]
+l1=list(filter(lambda x: True if x%2==0 else False ,l))
+print(list(l1))
+
+
+# by using functions
+
+def square(x):
+  return x*x
+a=4
+k=square(a)
+print( "square of {} is{} ".format(a,k))
+
+# by using loop
+
+l=[2,3,4,5,6,7,8]
+for i in l :
+    k=square(i)
+    print("square of {} is{} ".format(i,k))

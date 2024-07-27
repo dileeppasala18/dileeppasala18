@@ -1,0 +1,4 @@
+#possitive or negitive
+s=lambda x:"positive" if x>0 else "negitive"
+print(s(5))
+print(s(-2))

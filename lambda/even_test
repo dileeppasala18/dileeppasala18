@@ -1,0 +1,4 @@
+#even test
+l=[11,23,445,55,6,7,78,69]
+l1=list(filter(lambda x: True if x%2==0 else False ,l))
+print(list(l1))

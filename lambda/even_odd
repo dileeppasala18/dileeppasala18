@@ -1,0 +1,4 @@
+#even or odd
+s=lambda n:"is even" if n%2==0 else "is odd"
+print(s(5))
+print(s(8))

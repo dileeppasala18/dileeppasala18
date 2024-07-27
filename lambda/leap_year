@@ -1,0 +1,4 @@
+#leap year
+s=lambda n:"leap year" if n%4==0 else "non leap year"
+a=2024
+print(s(a))
